@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "opam-installed ppx_let exposed as an npm package",
   "scripts": {
-    "postinstall": "ln -s `opam config var ppx_let:lib`/ppx ./ppx && chmod +x ./ppx"
+    "postinstall": "ln -s `opam config var ppx_let:lib`/ppx.exe ./ppx"
   },
   "license": "MIT"
 }
